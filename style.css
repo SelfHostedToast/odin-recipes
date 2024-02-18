@@ -1,21 +1,23 @@
 .font-change {
   font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-  color: rgba(255, 255, 255, 0.5);
+
+.title {
   text-align: center;
-  font-weight: bold;
-  font-size: 60px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 0, 0, 0),
-    rgba(255, 255, 255, 0.438)
-  );
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 4px;
 }
 body {
-  background-color: rgba(0, 0, 0, 0.507);
+  margin: 80px;
+  background-color: rgba(233, 34, 90, 0.5);
+}
+ul {
+  list-style-type: none;
+  text-align: center;
 }
 
-.foodimg {
-  align-self: auto;
+li {
+  padding: 4px;
+  display: inline-block;
 }
