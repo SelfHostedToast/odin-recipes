@@ -1,3 +1,8 @@
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
 .font-change {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,15 +14,31 @@
   border-radius: 4px;
 }
 body {
-  margin: 80px;
+  margin: 150px;
   background-color: rgba(233, 34, 90, 0.5);
 }
+
 ul {
-  list-style-type: none;
-  text-align: center;
+  display: inline;
+  padding: 24px;
 }
 
 li {
-  padding: 4px;
-  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  border: 2px black solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 20px;
+  font-size: large;
+}
+
+.foodimg {
+  height: 300px;
+  width: 300px;
+  border: double 4px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
 }
